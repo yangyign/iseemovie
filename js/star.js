@@ -10,15 +10,15 @@ var clickPos = -1;
 
 function show(index) {
     for (var x = (index + 1); x < imgs.length; x++) { //清空
-        imgs[x].src = "../images/ajy/comments/star0.png";
+        imgs[x].src = "images/ajy/comments/star0.png";
     }
     if (index < 4) { //哭脸
         for (var j = 0; j <= index; j++) {
-            imgs[j].src = "../images/ajy/comments/star1.png";
+            imgs[j].src = "images/ajy/comments/star1.png";
         }
     } else { //笑脸
         for (var j = 0; j <= index; j++) {
-            imgs[j].src = "../images/ajy/comments/star2.png";
+            imgs[j].src = "images/ajy/comments/star2.png";
         }
     }
     text.value = comments[Math.floor(index / 2)]? comments[Math.floor(index / 2)]:"";
@@ -27,7 +27,7 @@ function show(index) {
         score.innerHTML = (index + 1).toFixed(1);
     }else {
         score.style["background-color"] = "none";
-        score.innerHTML = ""
+        score.innerHTML = ""  
     }
 
 }
