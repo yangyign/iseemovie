@@ -1,0 +1,90 @@
+/*
+* @Author: hxzyy
+* @Date:   2019-12-19 21:16:39
+* @Last Modified by:   hxzyy
+* @Last Modified time: 2019-12-23 16:43:01
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.first-wrap{
+	height: 650px;
+/* 	background-color: pink; */
+
+}
+.first-wrap img{
+	position: relative;
+	top: 0;
+}
+.uli1{
+	/* float: left; */
+	position: absolute;
+	top: 140px;
+	left: 13px;
+	width: 320px;
+	height: 350px;
+/* 	background-color: green; */
+	padding-left: 8px;
+}
+.uli1 li{
+	position: relative;
+	top: 13px;
+	width: 70px;
+	height: 73px;
+/* 	background-color: yellowgreen; */
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.li1 span{
+	position: relative;
+	top: 20px;
+	left: 14px;
+	color: #1688ea;
+	font-weight: bold;
+	font-size: 20px;
+/* 	font-weight: bolder; */
+}
+.li1 span:hover{
+	color: #255784;
+	background: #2196f3;
+	box-shadow:0 0 15px #2196f3, 0 0 40px #2196f3, 0 0 10px #2196f3;
+}
+.second-wrap{
+/* 	background-color: gray; */
+	position: relative;
+	top: -115px;
+	right: -400px;
+	width: 840px;
+	height: 560px;
+	padding-top: 10px;
+	padding-left: 15px;
+	background-color: #669999;
+
+}
+.second-wrap li{
+	width: 200px;
+	height: 260px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float: right;
+}
+.li2 img{
+	position: relative;
+	top: 7px;
+	left: 27px;
+}
+.li2 p{
+	color: lightblue;
+	font-weight: bolder;
+	text-align: center;
+	position: relative;
+	top: 6px;
+}
