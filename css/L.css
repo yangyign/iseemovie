@@ -1,0 +1,264 @@
+/*
+* @Author: 刘士博
+* @Date:   2019-12-18 10:30:48
+* @Last Modified by:   刘士博
+* @Last Modified time: 2019-12-24 20:19:19
+*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+li,ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.head-wrapper{
+	height: 80px;
+	background: #669999;
+}
+.head{
+	width: 1200px;
+	margin: 0px auto;
+	background: url('../images/title.png') no-repeat;
+}
+.head li{
+	float: left;
+	width: 70px;
+	line-height: 80px;
+}
+.head li a{
+	color: white;
+}
+
+.nav-wrapper{
+	height: 200px;
+}
+.nav{
+	margin: 0px auto;
+	height: 200px;
+	width: 1200px;
+	background: url("images/tu.jpg") -50px no-repeat;
+}
+.nav .input{
+	height: 140px;
+	width: 800px;
+	margin-left: 250px;
+}
+.nav .input .text{
+	width: 430px;
+	height: 70px;
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 70px;
+	border: 1px solid red;
+	border-radius: 20px;
+	background: url("images/search.jpg") right no-repeat;
+}
+.nav img{
+	margin-top: 20px;
+	float: right;
+}
+.nav .input input{
+	width: 360px;
+	height: 66px;
+	outline-style: none;
+	border: 0px;
+	border-radius: 60px;
+	font-size: 40px;
+	padding-left: 30px; 
+}
+
+.nav .input .car{
+	height: 36px;
+	width: 132px;
+	background: url("images/car.jpg") no-repeat;
+	display: inline-block;
+	float: right;
+	margin-top: 70px;
+	margin-right: 30px;
+}
+
+.nav .ps{
+	height: 30px;
+	width: 800px;
+	position: relative;
+	bottom: -25px;
+	left: 250px;
+}
+.nav .ps li{
+	height: 20px;
+	width: 100px;
+	float: left;
+	font-size: 20px;
+}
+.nav .ps a{
+	color: #999;
+}
+
+.box-wrapper{
+	height: 360px;
+	background-color: #669999;
+}
+.box{
+	width: 1200px;
+	margin: 0px auto;
+	height: 360px;
+	overflow: hidden;
+}
+.box .l{
+	width: 190px;
+	height: 360px;
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+}
+.box .l li{
+	height: 120px;
+	width: 190px;
+	display: inline-block;
+	float: left;
+	background-color: #ccc;
+}
+
+.box .hidden-r{
+	margin-left: 10px;
+	width: 570px;
+	height: 360px;
+	display: none;
+	float: left;
+	background: rgba(105, 180, 204, 0.7);
+}
+.box .l li b{
+	font-size: 36px;
+	padding-left: 40px;
+	line-height: 70px;
+}
+.box .l li p{
+	padding-left: 40px;
+	line-height: 30px;
+}
+.box .r{
+	width: 975px;
+	height: 360px;
+	display: inline-block;
+	float: right;
+	overflow: hidden;
+	position: relative;
+}
+.box .r .slider{
+	width: 4875px;
+	position: absolute;
+	left: -975px;
+}
+.box .r .slide{
+	overflow: hidden;
+	width: 975px;
+	float: left;
+	position: relative;
+}
+.box .r .slide .hidden-s{
+	height: 60px;
+	width: 975px;
+	position: absolute;
+	bottom: 0px;
+	background: rgba(66, 99, 99, 0.7);
+	text-align: center;
+	font-size: 26px;
+	line-height: 60px;
+	display: none;
+	font-weight: bold;
+	color: #ccc;
+}
+.box .l:hover~.hidden-r{
+	display: inline-block;
+}
+.box .l:hover~.r{
+	width: 430px;
+}
+.box .r .slide:hover .hidden-s{
+	display: block;
+}
+
+
+.center-wrapper{
+	height: 1000px;
+}
+.center{
+	width: 1200px;
+	height: 1000px;
+	margin: 0px auto;
+}
+.center ul{
+	height: 246px;
+	width: 1200px;
+	margin-bottom: 10px;
+}
+.center ul li{
+	height: 195px;
+	width: 280px;
+	background-color: red;
+	float: right;
+	margin-top: 25px;
+	margin-right: 5px;
+}
+
+
+
+.bottom-wrapper{
+	margin-top: 30px;
+	border-top: 1px solid #ccc;
+	height: 120px;
+}
+.bottom{
+	width: 1200px;
+	margin: 0px auto;
+	height: 120px;
+}
+.bottom ul{
+	float: right;
+	width: 300px;
+	height: 120px;
+}
+.bottom ul li{
+	height: 30px;
+	line-height: 30px;
+}
+
+.down-wrapper{
+	height: 200px;
+	background: url('images/bar.jpg') repeat-x;
+}
+.down-wrapper .up{
+	height: 150px;
+}
+.down-wrapper .down{
+	padding-top: 20px;
+	text-align: center;
+}
+.down a{
+	color: #333;
+}
+
+
+
+
+.fix-r{
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	bottom: 50px;
+	right: 0px;
+}
+.fix-l{
+	height: 220px;
+	width: 100px;
+	position: fixed;
+	top: 450px;
+	left: 0px;
+}
+.fix-l li{
+	float: left;
+}
